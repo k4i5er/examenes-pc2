@@ -24,16 +24,16 @@ Deberás desarrollar la interfaz gráfica responsiva para un **Dashboard de Moni
 
 ```
 +-------------------------------------------------------------------------------------+
-| ENCABEZADO (pack: side=TOP, fill=X)                                                 |
+| ENCABEZADO                                                                          |
 +---------------------------------------+---------------------------------------------+
-| PANEL LATERAL (grid col 0, weight=0). | ÁREA PRINCIPAL (grid col 1, weight=1)       |
-| - Filtros / Menú de Opciones          | - Tarjetas de Sensores (grid responsivo)    |
-| - Ancho protegido (minsize/propagate) | - Tabla de Registro                         |
+| PANEL LATERAL                         | ÁREA PRINCIPAL                              |
+| - Filtros / Menú de Opciones          | - Tarjetas de Sensores                      |
+| - Ancho protegido                     | - Tabla de Registro                         |
 |                                       |   +---------------------------------------+ |
-|                                       |   | INSIGNIA ALERTA (place en sub-frame)  | |
+|                                       |   | INSIGNIA ALERTA                       | |
 |                                       |   +---------------------------------------+ |
 +---------------------------------------+---------------------------------------------+
-| BARRA DE ESTADO (pack: side=BOTTOM, fill=X)                                         |
+| BARRA DE ESTADO                                                                     |
 +-------------------------------------------------------------------------------------+
 
 ```
